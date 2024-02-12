@@ -1,0 +1,353 @@
+    /* 
+    __________________________________
+
+                GENERAL              
+    __________________________________
+    */
+    body,div {
+        margin: 0;
+        padding: 0;
+      
+    }
+
+    body {
+
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; 
+    }
+
+    
+    .logo-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    
+    }
+
+    table, th, td {
+    
+        text-align: center;
+        padding: 10px;
+
+    
+    }
+    button {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        width: auto; /* Set width to auto or a specific pixel value */
+        cursor: pointer;
+    }
+        
+    form.bg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        border: 2px solid #3498db; /* Border color */
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    /* 
+    __________________________________
+
+                Top Nav            
+    __________________________________
+    */
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky; /* taken from intrnet*/
+        position: sticky;
+        top: 0;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+    }
+
+    li.right {
+        float: right;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+ 
+
+
+
+    /* 
+    __________________________________
+
+                MAIN            
+    __________________________________
+    */
+
+  
+    .index_main{
+        display: flex;
+        width: 100%; 
+        height: 100%  ;
+    
+    }
+  
+  
+    /* 
+    __________________________________
+
+                Left Nav          
+    __________________________________
+    */
+    .navdiv {
+        
+
+        float: left;
+        flex: auto;
+        min-height: 100vh;
+        background: #242f37;
+    }
+    
+    .navbarst {
+   
+        width: 200px;
+        height: 100%;
+   
+
+    }
+ 
+
+    .navbarst a {
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .navbarst a:hover {
+        background-color: rgba(201, 201, 183, 0.753);
+    }
+
+
+/* 
+__________________________________
+
+             Footer            
+__________________________________
+*/
+
+
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    max-width: 100%;
+}
+
+/* 
+__________________________________
+
+             Orders List
+                Table          
+__________________________________
+*/
+
+.waiting-status {
+    background-color: rgb(241, 241, 27);
+}
+
+.done-status {
+    background-color: rgb(94, 223, 94);
+}
+
+.processing-status {
+    background-color: rgb(134, 134, 209);
+}
+.viewordertable{
+    width: 50%;
+    border:unset;
+    border-collapse:unset;
+  
+}
+
+
+.viewordertable th {
+    background-color :gray;
+}
+ 
+/* 
+__________________________________
+
+            Store         
+__________________________________
+*/
+
+.storediv{
+    margin: 10px;
+    
+    flex: 100%;
+    height: 100%;
+}
+.storediv .stable td{
+  background-color:lightgray;
+}
+.storediv .stable th{
+    background-color:gray;
+  }
+
+/* 
+__________________________________
+
+            checkout      
+__________________________________
+*/
+
+.userinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.userinfo p {
+    flex-basis: 45%; 
+}
+
+/* 
+__________________________________
+
+            Employee View     
+__________________________________
+*/
+
+button.edit {
+    background-color: yellow;
+    color: #333; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button.add {
+    background-color: lightgreen;
+    color: #333; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: unset;
+    padding: 10px;
+    
+}
+
+
+
+/* Submit button styles */
+.submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Submit button hover style */
+.submit-button:hover,
+.custom-button:hover {
+    background-color: #45a049;
+}
+
+/* Error and success message styles */
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
+
+.success-message {
+
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.product-image {
+    width: 200px;
+}
+
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* 
+__________________________________
+
+          productview     
+__________________________________
+*/
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-container {
+    display: flex;
+}
+
+.product-image {
+    margin-right: 20px; 
+}
+
+.product-info {
+    margin-top: 10px;
+}

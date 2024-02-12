@@ -1,0 +1,77 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../Assets/Images/backgrounds/background_login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style the form */
+form {
+    width: 100%; 
+    max-width: 800px; /* Increase the max-width to make the form wider */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+/* Style the fieldsets */
+fieldset {
+    display: inline-block; /* Display fieldsets inline */
+    margin-right: 10px; /* Add some spacing between fieldsets */
+}
+
+
+
+/* Style the form legend */
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+/* Style the form inputs */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    background-color: #e6f7ff; /* Change background color on focus */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%; /* Take full width of the form */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Add box-sizing for consistent sizing */
+}
+
+/* Style the labels */
+label {
+    border: 1px solid #999; /* Border around labels */
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
