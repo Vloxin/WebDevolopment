@@ -23,3 +23,5 @@ The user could see colored order list  depending on status.
 
 it has orm for retailers, 3 step register and login pages. 
 it many other features, feel free to explore.
+
+This website was hosted on C-Panle provided by the university it self, and can be found at this link: http://web1190335.studentprojects.ritaj.ps/Pages/PHP/index.php (might get taken down in the future)
